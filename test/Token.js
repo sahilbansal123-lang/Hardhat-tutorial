@@ -15,7 +15,6 @@ describe("Token Contract", function () {
         console.log("Owner Address:", owner.address);
 
         expect(await hardhatToken.totalSupply()).to.equal(ownerBalance);  // total supply == 10000 
-        
     })
     
 });
